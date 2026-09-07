@@ -171,7 +171,7 @@
       return `
         <div class="menu-card" data-id="${item.id}">
           <div class="card-img-wrap">
-            <img src="${item.image}" alt="${item.name}" loading="lazy" onerror="this.onerror=null; this.src='velvet_hour_logo.jpg';">
+            <img src="${item.image}" alt="${item.name}" loading="lazy" onerror="this.onerror=null; this.src='images/velvet_hour_logo.jpg';">
             ${item.badge ? `<span class="card-badge">${item.badge}</span>` : ''}
             <span class="diet-indicator ${item.isVeg ? 'veg' : 'nonveg'}" title="${item.isVeg ? 'Vegetarian' : 'Non-Vegetarian'}"></span>
           </div>
@@ -363,7 +363,7 @@
         <div class="cart-items-list">
           ${state.cart.map(item => `
             <div class="cart-item">
-              <img src="${item.image}" alt="${item.name}" class="cart-item-img" onerror="this.onerror=null; this.src='velvet_hour_logo.jpg';">
+              <img src="${item.image}" alt="${item.name}" class="cart-item-img" onerror="this.onerror=null; this.src='images/velvet_hour_logo.jpg';">
               <div class="cart-item-info">
                 <h4 class="cart-item-name">${item.name}</h4>
                 <div class="cart-item-portion">${item.portionDetail}</div>

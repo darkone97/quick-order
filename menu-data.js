@@ -69,7 +69,7 @@ const MENU_DATA = {
       fullPrice: 50,
       notes: 'Street-style wok-tossed noodles',
       description: 'Wok-tossed noodles cooked with shredded cabbage, crunchy carrots, capsicum, onions, soy sauce, and aromatic desi spices.',
-      image: 'images/veg_chowmein.jpg',
+      image: 'images/veg_chowmein.jpg?v=10',
       isVeg: true,
       badge: 'Bestseller'
     },
@@ -83,7 +83,7 @@ const MENU_DATA = {
       fullPrice: 70,
       notes: 'Wok-tossed with scrambled egg bhurji',
       description: 'Spicy Hakka-style noodles tossed on high heat with fluffy scrambled farm eggs, fresh vegetables, and savory Indo-Chinese sauces.',
-      image: 'images/egg_chowmein.jpg',
+      image: 'images/egg_chowmein.jpg?v=10',
       isVeg: false,
       badge: 'Popular'
     },
@@ -99,7 +99,7 @@ const MENU_DATA = {
       fullPrice: 50,
       notes: 'Steamed with spicy red garlic dip & mayo',
       description: 'Hand-folded soft dumplings packed with finely minced fresh garden vegetables and mild herbs. Freshly steamed to order.',
-      image: 'images/veg_momo.jpg',
+      image: 'images/veg_momo.jpg?v=10',
       isVeg: true,
       badge: 'Classic'
     },
@@ -113,7 +113,7 @@ const MENU_DATA = {
       fullPrice: 80,
       notes: 'Steamed with rich paneer filling',
       description: 'Delicate steamed dumplings generously stuffed with spiced fresh cottage cheese (malai paneer), coriander, and mild seasonings.',
-      image: 'images/paneer_momo.jpg',
+      image: 'images/paneer_momo.jpg?v=10',
       isVeg: true,
       badge: "Chef's Pick"
     },
@@ -127,7 +127,7 @@ const MENU_DATA = {
       fullPrice: 60,
       notes: 'Crispy deep-fried golden crust',
       description: 'Crispy golden fried vegetable dumplings with an irresistible crunch on the outside and juicy, savory vegetable filling inside.',
-      image: 'images/fried_momo.jpg',
+      image: 'images/fried_momo.jpg?v=10',
       isVeg: true,
       badge: 'Crispy Hit'
     },
@@ -141,7 +141,7 @@ const MENU_DATA = {
       fullPrice: 90,
       notes: 'Golden fried with malai paneer stuffing',
       description: 'Deep-fried to golden perfection, loaded with rich spiced paneer filling. Served hot with signature spicy momo chutney.',
-      image: 'images/fried_paneer_momo.jpg',
+      image: 'images/fried_paneer_momo.jpg?v=10',
       isVeg: true,
       badge: 'Popular'
     },
@@ -155,7 +155,7 @@ const MENU_DATA = {
       fullPrice: 120,
       notes: 'Steamed juicy minced chicken',
       description: 'Classic Himalayan-style dumplings packed with succulent minced chicken, onions, ginger, and aromatic ground spices.',
-      image: 'images/chicken_momo.jpg',
+      image: 'images/chicken_momo.jpg?v=10',
       isVeg: false,
       badge: 'Must Try'
     },
@@ -170,7 +170,7 @@ const MENU_DATA = {
       price: 40,
       notes: 'Standard single portion classic masala',
       description: 'Classic 2-minute masala Maggi cooked just right with butter, fresh chopped onions, green chillies, and aromatic Maggi tastemaker.',
-      image: 'images/maggie.jpg',
+      image: 'images/maggie.jpg?v=10',
       isVeg: true,
       badge: 'All-Time Favorite'
     },
@@ -183,7 +183,7 @@ const MENU_DATA = {
       price: 70,
       notes: 'Masala Maggi enriched with scrambled egg',
       description: 'Rich masala Maggi cooked with extra seasonings and a fluffy scrambled egg mixed in for an indulgent, hearty bowl.',
-      image: 'images/egg_maggie.jpg',
+      image: 'images/egg_maggie.jpg?v=10',
       isVeg: false,
       badge: 'Must Try'
     },
@@ -198,7 +198,7 @@ const MENU_DATA = {
       price: 30,
       notes: 'Per bowl hot & nourishing',
       description: 'Steaming hot, comforting vegetable soup simmered with shredded cabbage, carrots, sweet corn, garlic, and cracked black pepper.',
-      image: 'images/veg_soup.jpg',
+      image: 'images/veg_soup.jpg?v=10',
       isVeg: true,
       badge: 'Warm & Healthy'
     },
@@ -213,7 +213,7 @@ const MENU_DATA = {
       price: 20,
       notes: 'Kadak ginger & cardamom tea',
       description: 'Freshly brewed strong Indian milk tea infused with crushed fresh ginger (adrak) and fragrant green cardamom (elaichi).',
-      image: 'images/kadak_chai.jpg',
+      image: 'images/kadak_chai.jpg?v=10',
       isVeg: true,
       badge: 'Desi Kadak'
     },
@@ -226,7 +226,7 @@ const MENU_DATA = {
       price: 30,
       notes: 'Frothy hot brewed cafe coffee',
       description: 'Rich, smooth, frothy beaten coffee made with rich roast beans and creamy hot milk, finished with cocoa dusting.',
-      image: 'images/coffee.jpg',
+      image: 'images/coffee.jpg?v=10',
       isVeg: true,
       badge: 'Aromatic'
     },
@@ -241,7 +241,7 @@ const MENU_DATA = {
       price: 50,
       notes: 'Tangy, spicy roasted peanut snack',
       description: 'Crunchy roasted peanuts tossed with finely diced red onions, juicy tomatoes, fresh green chillies, chaat masala, and fresh lemon juice.',
-      image: 'images/peanut_chaat.jpg',
+      image: 'images/peanut_chaat.jpg?v=10',
       isVeg: true,
       badge: 'Tangy Snack'
     },
@@ -254,7 +254,7 @@ const MENU_DATA = {
       price: 50,
       notes: 'Wholesome spiced black chana mix',
       description: 'Protein-packed tender boiled black chickpeas tossed with chopped onions, tomatoes, fresh cilantro, roasted cumin, and zesty lemon.',
-      image: 'images/chana_chaat.jpg',
+      image: 'images/chana_chaat.jpg?v=10',
       isVeg: true,
       badge: 'Healthy & Tasty'
     },
@@ -270,7 +270,7 @@ const MENU_DATA = {
       fullPrice: 60,
       notes: 'Crispy rolled wrappers with noodle & veg filling',
       description: 'Thin crispy golden fried rolls stuffed with seasoned spiced noodles and crunchy julienned vegetables. Served with sweet chilli dip.',
-      image: 'images/spring_roll.jpg',
+      image: 'images/spring_roll.jpg?v=10',
       isVeg: true,
       badge: 'Crispy Favorite'
     },
@@ -284,7 +284,7 @@ const MENU_DATA = {
       fullPrice: 50,
       notes: 'Spiced vegetable patties grilled crisp',
       description: 'Savory and aromatic pan-crisped vegetarian patties prepared with mashed potatoes, greens, crushed peanuts, and secret herbs.',
-      image: 'images/veg_kabab.jpg',
+      image: 'images/veg_kabab.jpg?v=10',
       isVeg: true,
       badge: 'Snack Hit'
     },
@@ -299,7 +299,7 @@ const MENU_DATA = {
       price: 120,
       notes: 'Wok-tossed in spicy schezwan & chilli gravy',
       description: 'Crispy fried dumplings tossed in a sizzling fiery Indo-Chinese sauce with crunchy bell peppers, sliced onions, and green chillies.',
-      image: 'images/chilli_momo.jpg',
+      image: 'images/chilli_momo.jpg?v=10',
       isVeg: true,
       badge: 'Spicy Delight'
     },
@@ -312,7 +312,7 @@ const MENU_DATA = {
       price: 150,
       notes: 'Diced paneer in spicy chilli garlic gravy',
       description: 'Succulent cubes of malai paneer lightly fried and simmered in a dark, glossy soy-chilli gravy with capsicum and diced onions.',
-      image: 'images/chilli_paneer.jpg',
+      image: 'images/chilli_paneer.jpg?v=10',
       isVeg: true,
       badge: 'Special'
     },
@@ -328,7 +328,7 @@ const MENU_DATA = {
       fullPrice: 100,
       notes: 'Aromatic basmati rice tossed with veggies',
       description: 'Steamed long-grain rice wok-tossed with finely chopped vegetables, spring onions, cracked black pepper, and light soy seasoning.',
-      image: 'images/fried_rice.jpg',
+      image: 'images/fried_rice.jpg?v=10',
       isVeg: true,
       badge: 'Comfort Food'
     },
@@ -345,7 +345,7 @@ const MENU_DATA = {
       stepKg: 0.5,
       notes: 'Per kg (Order Only)',
       description: 'Fresh, succulent chicken dish prepared special on-order per kilogram. Ideal for gatherings, parties, and family feasts.',
-      image: 'images/chicken_dish.jpg',
+      image: 'images/chicken_dish.jpg?v=10',
       isVeg: false,
       badge: 'Bulk Order Only'
     },
@@ -360,7 +360,7 @@ const MENU_DATA = {
       stepKg: 0.5,
       notes: 'Per kg (Order Only)',
       description: 'Tender, premium quality slow-cooked mutton prepared on advance order. Rich, flavorful, and cooked with authentic Dehradun spices.',
-      image: 'images/mutton_dish.jpg',
+      image: 'images/mutton_dish.jpg?v=10',
       isVeg: false,
       badge: 'Bulk Order Only'
     }
