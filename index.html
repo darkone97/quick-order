@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Velvet Hour Café | Badowala Dunga Road, Dehradun</title>
+  <meta name="description" content="Official website & WhatsApp ordering for The Velvet Hour Café, Badowala Dunga Road, Bhauwala, Dehradun. Steamed & Fried Momos, Chowmein, Chai, Maggi, Snacks & Bulk Orders with Free 1km Delivery and Live GPS Location.">
+  <link rel="icon" type="image/jpeg" href="velvet_hour_logo.jpg">
+  <link rel="apple-touch-icon" href="velvet_hour_logo.jpg">
+  <meta property="og:title" content="The Velvet Hour Café | Dehradun">
+  <meta property="og:description" content="Artisanal momos, snacks & drinks at Badowala Dunga Road, Dehradun. Order directly on WhatsApp with free 1km delivery.">
+  <meta property="og:image" content="velvet_hour_logo.jpg">
+  <meta property="og:type" content="restaurant">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="velvet_hour_logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Structured Data / SEO Schema (Google Knowledge Graph /g/11ylmb12cr) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "The Velvet Hour Café",
+    "image": "images/velvet_hour_cafe.jpg",
+    "logo": "velvet_hour_logo.jpg",
+    "telephone": "+917017690400",
+    "url": "http://localhost:3000",
+    "sameAs": "https://www.google.com/search?kgmid=%2Fg%2F11ylmb12cr&q=The+Velvet+Hour+Cafe",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Badowala Dunga Road, Bhauwala",
+      "addressLocality": "Dehradun",
+      "addressRegion": "Uttarakhand",
+      "postalCode": "248007",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "30.3667",
+      "longitude": "77.9667"
+    },
+    "servesCuisine": [
+      "Momos",
+      "Indo-Chinese",
+      "Chowmein",
+      "Street Food",
+      "Fast Food",
+      "Tea & Coffee"
+    ],
+    "priceRange": "₹20 - ₹350",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "10:00",
+        "closes": "22:30"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="brand-logo" id="brand-logo-link">
+        <img class="brand-emblem" src="velvet_hour_logo.jpg" alt="The Velvet Hour logo">
+        <div class="brand-text">
+          <h1 class="serif-font gold-gradient-text">The Velvet Hour</h1>
+          <span>Café &bull; Dehradun</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#menu" class="nav-link">Menu &amp; Order</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#visit" class="nav-link">Find Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="location-pill-top">
+          <span>📍</span>
+          <span>Badowala Dunga Road</span>
+        </div>
+
+        <button class="cart-nav-btn" id="open-cart-btn" aria-label="Open Shopping Cart">
+          <span>🛒</span>
+          <span class="cart-btn-label">Your Order</span>
+          <span class="cart-count-badge" id="nav-cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="hero">
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    
+    <div class="container">
+      <div class="hero-content">
+        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+          <div class="hero-tag">
+            <span>✨</span> Welcome to The Velvet Hour Café
+          </div>
+          <a href="https://www.google.com/search?kgmid=%2Fg%2F11ylmb12cr&q=The+Velvet+Hour+Cafe" target="_blank" class="google-rating-pill" style="margin-bottom: 0;" title="View Google Search Knowledge Graph Listing">
+            <span class="g-icon">G</span>
+            <span>⭐ 5.0 Rated on Google</span>
+            <span style="font-size: 0.75rem; opacity: 0.8;">↗</span>
+          </a>
+        </div>
+        <h2 class="hero-title">
+          Authentic Taste on <span class="gold-gradient-text">Badowala Dunga Road</span>
+        </h2>
+        <p class="hero-subtitle">
+          Enjoy freshly steamed &amp; crispy fried momos, street-style wok chowmein, spicy chaats, kadak chai, and special advance bulk orders delivered hot with live GPS location tracking.
+        </p>
+
+        <!-- Free Delivery 1km Offer Banner -->
+        <div class="hero-perk-banner">
+          <div class="hero-perk-icon">🛵</div>
+          <div class="hero-perk-text">
+            <strong>Free Delivery Within 1 KM Area</strong>
+            <span>Quick doorstep service across Bhauwala &amp; Badowala Dunga Road</span>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary" id="hero-menu-cta">
+            <span>Explore Menu &amp; Order</span>
+            <span>↓</span>
+          </a>
+          <a href="https://wa.me/917017690400" target="_blank" class="btn btn-whatsapp" id="hero-whatsapp-direct">
+            <span>💬 WhatsApp Us (+91 7017690400)</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-card">
+          <img src="images/velvet_hour_cafe.jpg" alt="The Velvet Hour Cafe Ambiance and Food">
+          <div class="hero-card-overlay">
+            <span class="gold-gradient-text" style="font-weight: 700; font-size: 1.15rem;">The Velvet Hour Café</span>
+            <p style="font-size: 0.85rem; color: #d4cfc7;">Badowala Dunga Road, Bhauwala, Dehradun</p>
+            <p style="font-size: 0.78rem; color: var(--gold-light); margin-top: 4px;">Call / WhatsApp: 7017690400 | 9870957283</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== MENU SECTION ==================== -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Freshly Prepared Daily</span>
+        <h2 class="section-title">Café Menu &amp; Pricing</h2>
+        <p class="section-description">
+          Choose Half or Full portions, fixed-price favorites, or bulk per-kg specials. Order sent directly to our WhatsApp with your live GPS pin!
+        </p>
+      </div>
+
+      <!-- Menu Controls -->
+      <div class="menu-controls">
+        <div class="search-and-dietary">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="menu-search-input" placeholder="Search Momos, Chowmein, Maggi, Chai, Chicken..." autocomplete="off">
+            <button class="clear-search-btn" id="clear-search-btn" aria-label="Clear search">✕</button>
+          </div>
+
+          <div class="dietary-toggles">
+            <button class="filter-chip active" data-diet="all" id="filter-diet-all">All Items</button>
+            <button class="filter-chip" data-diet="veg" id="filter-diet-veg">🟢 Pure Veg</button>
+            <button class="filter-chip" data-diet="nonveg" id="filter-diet-nonveg">🔴 Non-Veg</button>
+          </div>
+        </div>
+
+        <!-- Category Horizontal Filter Tabs -->
+        <div class="category-pills" id="category-pills-container">
+          <!-- Dynamically generated via menu-data.js -->
+        </div>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="menu-grid" id="menu-grid">
+        <!-- Dynamically rendered 21 items with portion toggles and kg steppers -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GOOGLE REVIEWS & RATINGS SECTION ==================== -->
+  <section class="menu-section" id="reviews" style="padding-top: 30px; border-top: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <a href="https://www.google.com/search?kgmid=%2Fg%2F11ylmb12cr&q=The+Velvet+Hour+Cafe" target="_blank" class="google-rating-pill" title="Official Google Entity /g/11ylmb12cr">
+          <span class="g-icon">G</span>
+          <span>Google Business Entity (/g/11ylmb12cr)</span>
+          <span style="font-size: 0.75rem;">↗</span>
+        </a>
+        <h2 class="section-title">Loved by Our Guests in Dehradun</h2>
+        <p class="section-description">
+          Rated <strong style="color: var(--gold-light);">5.0 / 5.0 Stars ⭐⭐⭐⭐⭐</strong> on Google &amp; Local Directories for our freshly steamed momos, wok chowmein, and rapid doorstep delivery.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div>
+            <div class="review-header">
+              <div class="review-author-info">
+                <div class="review-avatar">R</div>
+                <div>
+                  <div class="review-author-name">Rohit Sharma</div>
+                  <span class="review-badge">Verified Customer</span>
+                </div>
+              </div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+            <p class="review-text">
+              "Best momos and chowmein in Bhauwala! The spicy red garlic chutney paired with steamed paneer momos is incredible. Fast delivery within 15 minutes."
+            </p>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 14px; display: flex; align-items: center; gap: 6px;">
+            <span>📍 Bhauwala, Dehradun</span> &bull; <span>Google Review</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div>
+            <div class="review-header">
+              <div class="review-author-info">
+                <div class="review-avatar">P</div>
+                <div>
+                  <div class="review-author-name">Priya Negi</div>
+                  <span class="review-badge">Local Guide</span>
+                </div>
+              </div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+            <p class="review-text">
+              "Cozy aesthetic café on Badowala Dunga Road. Kadak ginger cardamom chai and crispy fried momos are absolute heaven in the evening breeze."
+            </p>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 14px; display: flex; align-items: center; gap: 6px;">
+            <span>📍 Badowala Dunga Road</span> &bull; <span>Google Review</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div>
+            <div class="review-header">
+              <div class="review-author-info">
+                <div class="review-avatar">A</div>
+                <div>
+                  <div class="review-author-name">Aman Verma</div>
+                  <span class="review-badge">Party Order</span>
+                </div>
+              </div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+            <p class="review-text">
+              "We placed advance bulk orders for their special chicken and mutton per-kg dishes. Tender, richly spiced, and delivered piping hot. Highly recommend!"
+            </p>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 14px; display: flex; align-items: center; gap: 6px;">
+            <span>📍 Dehradun</span> &bull; <span>Bulk Order Customer</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Action Banner -->
+      <div class="google-cta-box">
+        <div class="google-cta-text">
+          <h4>Experience The Velvet Hour Hospitality</h4>
+          <p>Read all reviews or share your feedback on our official Google Business Knowledge Graph profile.</p>
+        </div>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="https://www.google.com/search?kgmid=%2Fg%2F11ylmb12cr&q=The+Velvet+Hour+Cafe" target="_blank" class="btn btn-google btn-sm">
+            <span>🌐 View Google Knowledge Graph</span>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&query=The+Velvet+Hour+Cafe+Badowala+Dunga+Road+Bhauwala+Dehradun" target="_blank" class="btn btn-primary btn-sm">
+            <span>⭐ Review on Google Maps</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== LOCATION & CONTACT SECTION ==================== -->
+  <section class="menu-section" id="visit" style="padding-top: 30px; border-top: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Visit or Order</span>
+        <h2 class="section-title">Location &amp; Contact Details</h2>
+        <p class="section-description">
+          Located on Badowala Dunga Road, Bhauwala, Dehradun. Open daily with dine-in seating, quick takeaway, and free 1km delivery.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;">
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-gold); padding: 30px; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+              <h3 class="serif-font gold-gradient-text" style="font-size: 1.3rem;">📍 Café Address &amp; Navigation</h3>
+              <span style="background: rgba(34, 197, 94, 0.15); color: #4ade80; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: var(--radius-full);">Open Daily 10 AM - 10:30 PM</span>
+            </div>
+            <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 16px;">
+              <strong>The Velvet Hour Café</strong><br>
+              Badowala Dunga Road, Bhauwala,<br>
+              Dehradun, Uttarakhand, 248007
+            </p>
+            <div style="background: rgba(229, 169, 80, 0.08); border-left: 3px solid var(--gold-primary); padding: 10px 14px; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 16px; font-size: 0.85rem; color: var(--text-secondary);">
+              🛵 <strong>Free Delivery:</strong> Within 1 km radius across Bhauwala &amp; Badowala Dunga Road!
+            </div>
+          </div>
+          
+          <div class="location-card-actions">
+            <a href="https://www.google.com/search?kgmid=%2Fg%2F11ylmb12cr&q=The+Velvet+Hour+Cafe" target="_blank" class="btn btn-outline btn-sm" style="width: 100%; text-decoration: none;" id="open-gmaps-link">
+              <span>🔍 View Google Search Knowledge Card (/g/11ylmb12cr)</span>
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=The+Velvet+Hour+Cafe+Badowala+Dunga+Road+Bhauwala+Dehradun" target="_blank" class="btn btn-primary btn-sm" style="width: 100%; text-decoration: none;">
+              <span>🗺️ Get Turn-by-Turn Directions on Google Maps</span>
+            </a>
+          </div>
+        </div>
+
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-gold); padding: 30px; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <h3 class="serif-font gold-gradient-text" style="font-size: 1.3rem; margin-bottom: 16px;">📱 Instant Orders &amp; Calls</h3>
+            <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 16px;">
+              <strong>Primary WhatsApp / Phone:</strong><br>
+              <a href="tel:7017690400" style="color: var(--gold-light); font-size: 1.15rem; font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; margin-top: 4px;">
+                📞 +91 7017690400
+              </a>
+            </p>
+            <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 16px;">
+              <strong>Secondary Contact:</strong><br>
+              <a href="tel:9870957283" style="color: var(--gold-light); font-size: 1.05rem; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; margin-top: 4px;">
+                📞 +91 9870957283
+              </a>
+            </p>
+          </div>
+
+          <div class="location-card-actions">
+            <a href="https://wa.me/917017690400" target="_blank" class="btn btn-whatsapp btn-sm" style="width: 100%;">
+              <span>💬 Order via WhatsApp (+91 7017690400)</span>
+            </a>
+            <a href="tel:7017690400" class="btn btn-outline btn-sm" style="width: 100%;">
+              <span>📞 Click to Call Café</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <img class="brand-emblem" src="velvet_hour_logo.jpg" alt="The Velvet Hour logo">
+            <div class="brand-text">
+              <h3 class="serif-font gold-gradient-text" style="font-size: 1.25rem;">The Velvet Hour Café</h3>
+              <span>Bhauwala, Dehradun</span>
+            </div>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.88rem; margin-top: 12px;">
+            Fresh Momos, Chowmein, Maggi, Chai &amp; Per-Kg Bulk Orders. Free Delivery within 1 km on Badowala Dunga Road, Dehradun.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Menu Highlights</h4>
+          <p style="color: var(--text-secondary); font-size: 0.88rem; line-height: 1.8;">
+            &bull; Steamed &amp; Fried Momos (Veg / Paneer / Chicken)<br>
+            &bull; Veg &amp; Egg Chowmein / Fried Rice<br>
+            &bull; Chilli Momo &amp; Chilli Paneer<br>
+            &bull; Fresh Chai, Coffee &amp; Maggi<br>
+            &bull; Chicken &amp; Mutton per Kg Bulk
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>WhatsApp Ordering</h4>
+          <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 12px;">
+            Place your order with live GPS delivery:
+          </p>
+          <a href="https://wa.me/917017690400" target="_blank" class="btn btn-whatsapp btn-sm">
+            <span>💬 WhatsApp: 7017690400</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 The Velvet Hour Café, Badowala Dunga Road, Dehradun.</p>
+        <p>WhatsApp Order &amp; Live GPS Location Integration</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== CART SLIDEOUT DRAWER ==================== -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay">
+    <div class="cart-drawer" id="cart-drawer">
+      <div class="drawer-header">
+        <h3 class="serif-font">
+          <span>🛒 Your Order</span>
+          <span class="cart-count-badge" id="drawer-cart-count">0</span>
+        </h3>
+        <button class="close-drawer-btn" id="close-cart-btn" aria-label="Close Cart">✕</button>
+      </div>
+
+      <!-- Free 1km Delivery Alert -->
+      <div class="drawer-perk-bar">
+        <span>🛵</span>
+        <span><strong>Free Delivery</strong> within 1 km radius in Bhauwala!</span>
+      </div>
+
+      <div class="drawer-body" id="drawer-items-container">
+        <!-- Dynamically populated cart items -->
+      </div>
+
+      <div class="drawer-footer" id="drawer-footer">
+        <div class="bill-summary">
+          <div class="bill-row">
+            <span>Items Subtotal</span>
+            <span id="bill-subtotal">₹0</span>
+          </div>
+          <div class="bill-row">
+            <span>Delivery Fee</span>
+            <span id="bill-delivery" style="color: #4ade80;">FREE</span>
+          </div>
+          <div class="bill-row total">
+            <span>Total Payable</span>
+            <span class="total-amount" id="bill-grand-total">₹0</span>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" style="width: 100%;" id="drawer-checkout-btn">
+          <span>Proceed to Location &amp; WhatsApp →</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== CHECKOUT & LIVE GPS MODAL ==================== -->
+  <div class="modal-backdrop" id="checkout-modal-backdrop">
+    <div class="modal-window" id="checkout-modal">
+      <div style="padding: 22px 26px 0; display: flex; align-items: center; justify-content: space-between;">
+        <h3 class="serif-font gold-gradient-text" style="font-size: 1.35rem;">Send Order to Café</h3>
+        <button class="close-drawer-btn" id="close-checkout-modal-btn" aria-label="Close">✕</button>
+      </div>
+
+      <div style="padding: 20px 26px;">
+        <!-- Step 1: Customer Info -->
+        <div class="form-group">
+          <label class="form-label" for="checkout-name">👤 Your Full Name *</label>
+          <input type="text" id="checkout-name" class="form-control" placeholder="e.g. Rahul Rawat" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="checkout-phone">📱 Mobile Phone Number *</label>
+          <input type="tel" id="checkout-phone" class="form-control" placeholder="e.g. 7017690400" required>
+        </div>
+
+        <!-- Step 2: Order Type -->
+        <div class="form-group">
+          <label class="form-label">🛎️ Order Dining Mode *</label>
+          <div class="order-type-selector">
+            <div class="order-type-card active" data-type="delivery" id="type-delivery">
+              <div style="font-size: 1.2rem; margin-bottom: 2px;">🛵</div>
+              <div style="font-size: 0.8rem; font-weight: 700;">Doorstep Delivery</div>
+            </div>
+            <div class="order-type-card" data-type="dine-in" id="type-dinein">
+              <div style="font-size: 1.2rem; margin-bottom: 2px;">🍽️</div>
+              <div style="font-size: 0.8rem; font-weight: 700;">Café Table (Dine-In)</div>
+            </div>
+            <div class="order-type-card" data-type="takeaway" id="type-takeaway">
+              <div style="font-size: 1.2rem; margin-bottom: 2px;">🛍️</div>
+              <div style="font-size: 0.8rem; font-weight: 700;">Self Takeaway</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Delivery Zone Selector -->
+        <div class="form-group" id="delivery-zone-section">
+          <label class="form-label">📍 Delivery Distance Zone</label>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 0.85rem;">
+            <label style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle); padding: 10px; border-radius: var(--radius-sm); cursor: pointer; display: flex; align-items: center; gap: 8px;">
+              <input type="radio" name="delivery-zone" value="within_1km" checked>
+              <span><strong>Within 1 km</strong><br><small style="color: #4ade80;">FREE Delivery</small></span>
+            </label>
+            <label style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle); padding: 10px; border-radius: var(--radius-sm); cursor: pointer; display: flex; align-items: center; gap: 8px;">
+              <input type="radio" name="delivery-zone" value="beyond_1km">
+              <span><strong>Beyond 1 km</strong><br><small style="color: var(--gold-light);">+₹30 Delivery Fee</small></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Step 3: Location / GPS -->
+        <div class="form-group">
+          <label class="form-label">📍 Live GPS Location &amp; Address</label>
+          <div class="location-box">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
+              <button type="button" class="gps-detect-btn" id="detect-gps-btn">
+                <span>🎯 Pinpoint My Live Location</span>
+              </button>
+              <div class="location-status" id="gps-status-indicator">
+                <span>⚪ Click to attach GPS</span>
+              </div>
+            </div>
+
+            <div class="gps-link-preview" id="gps-link-preview">
+              <span id="gps-coords-display" style="color: #4ade80; font-family: monospace;"></span>
+              <a href="#" target="_blank" id="gps-maps-preview-link">View on Google Maps ↗</a>
+            </div>
+
+            <div class="form-group" style="margin-top: 6px; margin-bottom: 0;">
+              <label class="form-label" for="checkout-address" id="address-label" style="font-size: 0.8rem; color: var(--text-muted);">
+                Room / Hostel / Flat No., Building &amp; Nearby Landmark
+              </label>
+              <textarea id="checkout-address" class="form-control" rows="2" placeholder="e.g. Room 204, Green Valley Hostel, near Bhauwala Chowk"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 4: Special Instructions -->
+        <div class="form-group">
+          <label class="form-label" for="checkout-notes">📝 Cooking / Kitchen Instructions (Optional)</label>
+          <input type="text" id="checkout-notes" class="form-control" placeholder="e.g. Extra spicy momo chutney, less oil in chowmein">
+        </div>
+
+        <!-- Total Bill Pill -->
+        <div style="background: rgba(229, 169, 80, 0.08); border: 1px dashed var(--border-gold); padding: 12px 16px; border-radius: var(--radius-sm); display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+          <div>
+            <span style="font-size: 0.78rem; color: var(--text-muted); display: block;">Total Payable to Café</span>
+            <strong class="serif-font gold-gradient-text" id="checkout-total-display" style="font-size: 1.35rem;">₹0</strong>
+          </div>
+          <span style="font-size: 0.78rem; color: #94a3b8;">📱 Sent to +91 7017690400</span>
+        </div>
+
+        <!-- WhatsApp Order CTA -->
+        <button class="btn btn-whatsapp" style="width: 100%; padding: 15px; font-size: 1.05rem;" id="send-whatsapp-order-btn">
+          <span>💬 Send Order via WhatsApp</span>
+        </button>
+        <p style="text-align: center; font-size: 0.75rem; color: var(--text-muted); margin-top: 8px;">
+          This will open WhatsApp with your itemized bill, portion choices, and live GPS map pin ready to send to The Velvet Hour Café.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== FLOATING MOBILE CART ==================== -->
+  <div class="floating-mobile-cart" id="floating-mobile-cart">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <div class="cart-count-badge" id="mobile-cart-count">0</div>
+      <div>
+        <span style="font-size: 0.75rem; color: var(--text-secondary); display: block;">Your Order</span>
+        <span class="serif-font" id="mobile-cart-total" style="font-size: 1.1rem; color: var(--gold-light); font-weight: 700;">₹0</span>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 0.9rem; font-weight: 700; color: var(--gold-light);">
+      <span>View Cart</span>
+      <span>→</span>
+    </div>
+  </div>
+
+  <!-- ==================== TOAST CONTAINER ==================== -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script src="menu-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
