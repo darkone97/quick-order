@@ -363,16 +363,16 @@
         <div class="cart-items-list">
           ${state.cart.map(item => `
             <div class="cart-item">
-              <img src="${item.image}" alt="${item.name}" class="cart-item-img">
+              <img src="${item.image}" alt="${item.name}" class="cart-item-img" onerror="this.onerror=null; this.src='velvet_hour_logo.jpg';">
               <div class="cart-item-info">
                 <h4 class="cart-item-name">${item.name}</h4>
                 <div class="cart-item-portion">${item.portionDetail}</div>
                 <div class="cart-item-price">₹${item.unitPrice * item.quantity}</div>
               </div>
               <div class="cart-item-controls">
-                <button class="qty-btn" onclick="window.VelvetApp.updateQty('${item.cartKey}', -1)">−</button>
+                <button class="qty-btn" onclick="window.VelvetApp.updateQty('${item.cartKey}', -1)" aria-label="Decrease quantity">−</button>
                 <span class="qty-val">${item.quantity}</span>
-                <button class="qty-btn" onclick="window.VelvetApp.updateQty('${item.cartKey}', 1)">+</button>
+                <button class="qty-btn" onclick="window.VelvetApp.updateQty('${item.cartKey}', 1)" aria-label="Increase quantity">+</button>
               </div>
             </div>
           `).join('')}
@@ -392,11 +392,16 @@
   function openCartDrawer() {
     DOM.cartDrawerOverlay.classList.add('open');
     document.body.style.overflow = 'hidden';
+    if (DOM.floatingMobileCart) DOM.floatingMobileCart.classList.remove('visible');
   }
 
   function closeCartDrawer() {
     DOM.cartDrawerOverlay.classList.remove('open');
     document.body.style.overflow = '';
+    const totalCount = state.cart.reduce((sum, item) => sum + item.quantity, 0);
+    if (DOM.floatingMobileCart && totalCount > 0) {
+      DOM.floatingMobileCart.classList.add('visible');
+    }
   }
 
   function openCheckoutModal() {
@@ -407,11 +412,16 @@
     closeCartDrawer();
     DOM.checkoutModalBackdrop.classList.add('open');
     document.body.style.overflow = 'hidden';
+    if (DOM.floatingMobileCart) DOM.floatingMobileCart.classList.remove('visible');
   }
 
   function closeCheckoutModal() {
     DOM.checkoutModalBackdrop.classList.remove('open');
     document.body.style.overflow = '';
+    const totalCount = state.cart.reduce((sum, item) => sum + item.quantity, 0);
+    if (DOM.floatingMobileCart && totalCount > 0) {
+      DOM.floatingMobileCart.classList.add('visible');
+    }
   }
 
   function setOrderType(type) {
