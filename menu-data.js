@@ -1,7 +1,7 @@
 /**
  * The Velvet Hour Café - Official Menu & Cafe Configuration
  * Location: Badowala Dunga Road, Bhauwala, Dehradun
- * Contact / WhatsApp: +91 7017690400 (Also: +91 9870957283)
+ * Contact / WhatsApp: +91 7017690400
  */
 
 const MENU_DATA = {
@@ -9,7 +9,6 @@ const MENU_DATA = {
     name: 'The Velvet Hour Café',
     tagline: 'Delight in Every Bite • Badowala Dunga Road, Dehradun',
     whatsappNumber: '7017690400',
-    secondaryPhone: '9870957283',
     internationalNumber: '917017690400',
     address: 'Badowala Dunga Road, Bhauwala, Dehradun, Uttarakhand',
     landmark: 'Near Bhauwala Main Road',
@@ -70,7 +69,7 @@ const MENU_DATA = {
       fullPrice: 50,
       notes: 'Street-style wok-tossed noodles',
       description: 'Wok-tossed noodles cooked with shredded cabbage, crunchy carrots, capsicum, onions, soy sauce, and aromatic desi spices.',
-      image: 'https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=600&q=80',
+      image: 'images/veg_chowmein.jpg',
       isVeg: true,
       badge: 'Bestseller'
     },
@@ -84,7 +83,7 @@ const MENU_DATA = {
       fullPrice: 70,
       notes: 'Wok-tossed with scrambled egg bhurji',
       description: 'Spicy Hakka-style noodles tossed on high heat with fluffy scrambled farm eggs, fresh vegetables, and savory Indo-Chinese sauces.',
-      image: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=600&q=80',
+      image: 'images/egg_chowmein.jpg',
       isVeg: false,
       badge: 'Popular'
     },
@@ -156,7 +155,7 @@ const MENU_DATA = {
       fullPrice: 120,
       notes: 'Steamed juicy minced chicken',
       description: 'Classic Himalayan-style dumplings packed with succulent minced chicken, onions, ginger, and aromatic ground spices.',
-      image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=600&q=80',
+      image: 'images/chicken_momo.jpg',
       isVeg: false,
       badge: 'Must Try'
     },
@@ -184,7 +183,7 @@ const MENU_DATA = {
       price: 70,
       notes: 'Masala Maggi enriched with scrambled egg',
       description: 'Rich masala Maggi cooked with extra seasonings and a fluffy scrambled egg mixed in for an indulgent, hearty bowl.',
-      image: 'https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&w=600&q=80',
+      image: 'images/egg_maggie.jpg',
       isVeg: false,
       badge: 'Must Try'
     },
@@ -227,7 +226,7 @@ const MENU_DATA = {
       price: 30,
       notes: 'Frothy hot brewed cafe coffee',
       description: 'Rich, smooth, frothy beaten coffee made with rich roast beans and creamy hot milk, finished with cocoa dusting.',
-      image: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80',
+      image: 'images/coffee.jpg',
       isVeg: true,
       badge: 'Aromatic'
     },
@@ -313,7 +312,7 @@ const MENU_DATA = {
       price: 150,
       notes: 'Diced paneer in spicy chilli garlic gravy',
       description: 'Succulent cubes of malai paneer lightly fried and simmered in a dark, glossy soy-chilli gravy with capsicum and diced onions.',
-      image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=600&q=80',
+      image: 'images/chilli_paneer.jpg',
       isVeg: true,
       badge: 'Special'
     },
@@ -329,7 +328,7 @@ const MENU_DATA = {
       fullPrice: 100,
       notes: 'Aromatic basmati rice tossed with veggies',
       description: 'Steamed long-grain rice wok-tossed with finely chopped vegetables, spring onions, cracked black pepper, and light soy seasoning.',
-      image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80',
+      image: 'images/fried_rice.jpg',
       isVeg: true,
       badge: 'Comfort Food'
     },
@@ -346,7 +345,7 @@ const MENU_DATA = {
       stepKg: 0.5,
       notes: 'Per kg (Order Only)',
       description: 'Fresh, succulent chicken dish prepared special on-order per kilogram. Ideal for gatherings, parties, and family feasts.',
-      image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80',
+      image: 'images/chicken_dish.jpg',
       isVeg: false,
       badge: 'Bulk Order Only'
     },
@@ -361,7 +360,7 @@ const MENU_DATA = {
       stepKg: 0.5,
       notes: 'Per kg (Order Only)',
       description: 'Tender, premium quality slow-cooked mutton prepared on advance order. Rich, flavorful, and cooked with authentic Dehradun spices.',
-      image: 'https://images.unsplash.com/photo-1545247181-516773cae754?auto=format&fit=crop&w=600&q=80',
+      image: 'images/mutton_dish.jpg',
       isVeg: false,
       badge: 'Bulk Order Only'
     }

@@ -1,7 +1,7 @@
 /**
  * The Velvet Hour Café - Application & WhatsApp Engine
  * Location: Badowala Dunga Road, Bhauwala, Dehradun
- * Primary WhatsApp: +91 7017690400 | Secondary: +91 9870957283
+ * Primary WhatsApp: +91 7017690400
  */
 
 (function () {
@@ -171,7 +171,7 @@
       return `
         <div class="menu-card" data-id="${item.id}">
           <div class="card-img-wrap">
-            <img src="${item.image}" alt="${item.name}" loading="lazy">
+            <img src="${item.image}" alt="${item.name}" loading="lazy" onerror="this.onerror=null; this.src='images/velvet_hour_cafe.jpg';">
             ${item.badge ? `<span class="card-badge">${item.badge}</span>` : ''}
             <span class="diet-indicator ${item.isVeg ? 'veg' : 'nonveg'}" title="${item.isVeg ? 'Vegetarian' : 'Non-Vegetarian'}"></span>
           </div>
@@ -483,7 +483,7 @@
 
   // ==========================================
   // WHATSAPP ORDER DISPATCHER
-  // Number: 917017690400 (Also 9870957283)
+  // Number: 917017690400
   // ==========================================
   function sendOrderViaWhatsApp() {
     const customerName = DOM.checkoutName.value.trim();
@@ -562,7 +562,7 @@
 
     msg += `━━━━━━━━━━━━━━━━━━━━━\n`;
     msg += `🕒 *Order Time:* ${timeString}\n`;
-    msg += `_The Velvet Hour Café • Call: 7017690400 / 9870957283_`;
+    msg += `_The Velvet Hour Café • Call / WhatsApp: +91 7017690400_`;
 
     const targetNumber = '917017690400';
     const waUrl = `https://wa.me/${targetNumber}?text=${encodeURIComponent(msg)}`;
