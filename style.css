@@ -111,6 +111,7 @@ h1, h2, h3, h4, .serif-font {
 
 .gold-gradient-text {
   background: linear-gradient(135deg, #fff3dc 0%, var(--gold-primary) 50%, var(--gold-dark) 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1358,6 +1359,7 @@ h1, h2, h3, h4, .serif-font {
 .google-rating-pill .g-icon {
   font-weight: 800;
   background: linear-gradient(135deg, #4285F4, #EA4335, #FBBC05, #34A853);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1rem;
